@@ -1,6 +1,11 @@
+body{
+	 background-image: url("../img/fundo.jpg");
+	 background-repeat: no-repeat;
+}
 
 h1{
 	color:Red;
+	text-align:center;
 }
 .texto{
 	text-align: justify;
@@ -16,4 +21,39 @@ ul li a{
 
 ul li a:hover{
 	color:red;
+}
+dl{
+	padding-bottom:2px;
+	color:white;
+	text-align:justify;
+}
+ul h2{
+	text-align:center;
+}
+/*Menu*/
+.Menu{
+	  margin-left:auto;
+	  margin-right:auto;
+	  width:50%;
+	  border:1px solid black;
+}
+
+/*Principal*/
+.main{
+	margin-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid black;
+	border-radius:5px;
+	width:50%;
+	height:30%;
+	text-align:center;	
+}
+
+/*Rodape*/
+.foot{
+	margin-top:40%;
+	border:1px solid black;
+	border-radius:5px;
+	background-image: linear-gradient(black,gray);
 }
