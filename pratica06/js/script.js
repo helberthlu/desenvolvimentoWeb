@@ -49,8 +49,3 @@ else if(imc(altura,peso) >= 40 )
 }
 
 input.value = nome +" "+ imc(altura,peso)+" " + resultado;
-
-        
-  
-
-
