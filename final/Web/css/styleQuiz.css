@@ -1,0 +1,126 @@
+
+.grid{
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    background-color:#fff;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border:2px solid #cbcbcb;
+    box-shadow: 4px 4px 2px #f5f2f2;
+}
+
+.grid h1{
+    font-family: sans-serif;
+    background-color: #57636e;
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0px;
+    border-radius: 50px;
+}
+
+.grid #question{
+    font-family: sans-serif;
+    font-size: 2em;
+    color: #15a5a5;
+}
+
+.buttons{
+    margin-top: 30px;
+}
+
+#btn0,#btn1,#btn2,#btn3{
+    background-color: #779897;
+    width: 150px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1e3f6a;
+    border-radius: 50px;
+    margin: 10px 20px 10px 40px;
+    padding: 10px 10px;
+}
+
+#progress{
+    color: #2b2b2b;
+    font-size: 15px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover{
+    cursor: pointer;
+    background-color: #111;
+    border: 1px solid #edeff1;
+
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus{
+    outline: 0;
+}
+
+
+body{
+    background-color:rgba(7, 5, 32, 0.8);
+}
+#navpri{
+    background: linear-gradient(to left,#c1cfd38f,#a9b8b877,#aabcc0da);
+}
+#bt{
+    border:1px solid rgb(234, 232, 236);
+    border-radius: px;
+    background: rgb(90, 96, 97);
+    width: 100px;
+}
+#bt:hover{
+    background: rgb(2, 10, 31);
+}
+
+
+#home{
+        margin-right:auto;       
+}
+
+#navbarSite{
+         border-radius: 1px;
+         width: 200px;  
+         background: rgb(195, 214, 226);
+}
+ .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+ 
